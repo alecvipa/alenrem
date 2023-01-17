@@ -1,0 +1,92 @@
+
+.fonts3{
+    font-family: 'Roboto', sans-serif !important; 
+
+}
+.pointer {
+    cursor: pointer;
+}
+.logoImageDavid{
+    max-width: 18% !important;
+}
+.serviciosDiv{
+    margin-top: -7%;
+}
+.valueProposition{
+    margin-top: -3%;
+}
+.spaceDivSastre{
+    height: 20rem;
+    background-image: url("/assets/images/sastre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 59%
+}
+.procesoTrabajoDiv{
+    margin-top: -6.9% !important;
+}
+.overlaySastre{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.11);
+    padding-top: 7%;
+}
+.ch:hover{
+    color: #D42930 !important;
+}
+.ch-bg:hover{
+    background-color: #D42930 !important;
+}
+@media(min-width:992px){
+    .res-Black{
+        color: white !important;
+    }
+    .cascading-right {
+        margin-right: -50px;
+    }
+
+    .rotate-lg-6 {
+        transform: rotate(6deg);
+    }
+    .davidHacherStory{
+        margin-bottom: 7%;
+    }
+    .redeSocialesDiv{
+        display: none !important;
+    }
+    
+}
+@media(max-width:991px){
+    .procesoTrabajoDiv{
+        margin-top: -31% !important;
+    }
+    #contacto{
+        margin-top: 16% !important;
+    }
+    .redeSocialesDiv2{
+        display: none !important;
+    }
+    .davidHacherStory{
+        margin-bottom: -35%;
+    }
+    .res-Black{
+        color: black !important;
+    }
+    .logoImageDavid{
+        max-width: 48% !important;
+    }
+    .serviciosDiv{
+        margin-top: -31%;
+    }
+    .valueProposition{
+        margin-top: -45%;
+    }
+    .overlaySastre{
+        padding-top: 15%;
+    }
+    .spaceDivSastre{
+        margin-top: -15%;
+        height: 16rem;
+    }
+}
