@@ -6,12 +6,16 @@
 .pointer {
     cursor: pointer;
 }
+.propValue{
+    width: 70%;
+}
 .logoImageDavid{
     max-width: 18% !important;
 }
 .franja{
     background-color: #ec5404;
     padding-top: 1% ;
+    margin-bottom: 5%;
 }
 .logoAlenrem{
     padding-top: 3%;
