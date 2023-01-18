@@ -9,8 +9,12 @@
 .logoImageDavid{
     max-width: 18% !important;
 }
-.serviciosDiv{
-    margin-top: -7%;
+.franja{
+    background-color: #ec5404;
+    padding-top: 1% ;
+}
+.logoAlenrem{
+    padding-top: 3%;
 }
 .valueProposition{
     margin-top: -3%;
@@ -58,6 +62,9 @@
     
 }
 @media(max-width:991px){
+    .elementExtra{
+        display: none;
+    }
     .procesoTrabajoDiv{
         margin-top: -31% !important;
     }
@@ -76,9 +83,7 @@
     .logoImageDavid{
         max-width: 48% !important;
     }
-    .serviciosDiv{
-        margin-top: -31%;
-    }
+  
     .valueProposition{
         margin-top: -45%;
     }
