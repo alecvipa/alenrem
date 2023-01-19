@@ -17,11 +17,24 @@
     padding-top: 1% ;
     margin-bottom: 5%;
 }
+.colorNaranja{
+    background-color: #ec5404 !important;
+}
+.letraNaranja{
+    color: #ec5404 !important;
+
+}
 .logoAlenrem{
     padding-top: 3%;
 }
 .valueProposition{
     margin-top: -3%;
+}
+.btnMas{
+    margin-top: 3%;
+}
+.titleFabrica{
+    margin-top: 25%;
 }
 .spaceDivSastre{
     height: 20rem;
@@ -31,9 +44,16 @@
     background-size: cover;
     background-position: 50% 59%
 }
-.procesoTrabajoDiv{
-    margin-top: -6.9% !important;
+.cartonLine{
+    height: 20rem;
+    background-image: url("/assets/images/cajaCarton.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 59%;
+    margin-top: -3%;
 }
+
 .overlaySastre{
     height: 100%;
     width: 100%;
@@ -89,7 +109,7 @@
     }
   
     .valueProposition{
-        margin-top: -45%;
+        margin-bottom: -30%;
     }
     .overlaySastre{
         padding-top: 15%;
