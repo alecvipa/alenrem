@@ -17,6 +17,10 @@
     padding-top: 1% ;
     margin-bottom: 5%;
 }
+.titleHeadColorBg{
+    background-color: rgb(234, 234, 234);
+    padding-bottom: 2%;
+}
 .colorNaranja{
     background-color: #ec5404 !important;
 }
@@ -26,6 +30,7 @@
 }
 .logoAlenrem{
     padding-top: 3%;
+    font-weight: bolder;
 }
 .valueProposition{
     margin-top: -3%;
@@ -35,6 +40,8 @@
 }
 .titleFabrica{
     margin-top: 25%;
+    text-shadow: 1px 1px white;
+    font-weight: bolder;
 }
 .spaceDivSastre{
     height: 20rem;
@@ -47,6 +54,15 @@
 .cartonLine{
     height: 20rem;
     background-image: url("/assets/images/cajaCarton.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 59%;
+    margin-top: -3%;
+}
+.cartonLineDos{
+    height: 20rem;
+    background-image: url("/assets/images/cajasDos.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,33 +105,18 @@
     .elementExtra{
         display: none;
     }
-    .procesoTrabajoDiv{
-        margin-top: -31% !important;
+    .cartonLineDos{
+        margin-top: -30%;
     }
     #contacto{
-        margin-top: 16% !important;
+        margin-top: -30% !important;
     }
-    .redeSocialesDiv2{
-        display: none !important;
-    }
-    .davidHacherStory{
-        margin-bottom: -35%;
-    }
-    .res-Black{
-        color: black !important;
-    }
-    .logoImageDavid{
-        max-width: 48% !important;
-    }
-  
     .valueProposition{
         margin-bottom: -30%;
     }
-    .overlaySastre{
-        padding-top: 15%;
-    }
-    .spaceDivSastre{
-        margin-top: -15%;
-        height: 16rem;
+    .logoAlenrem{
+        padding-top: 10% !important;
+        padding: 5%;
+        font-weight: bolder;
     }
 }
