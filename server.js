@@ -40,10 +40,25 @@ app.get('/inicio', function (req, res) {
     res.render('inicio');
 
 });
-app.get('/:params?', function (req, res) {
-    var params = req.params.params;
-    res.render(params);
-})
+app.get('/privacidad', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('privacidad');
+
+});
+app.get('/trabajo', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('trabajo');
+
+});
+app.get('/gracias', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('gracias');
+
+});
+// app.get('/:params?', function (req, res) {
+//     var params = req.params.params;
+//     res.render(params);
+// })
 
 
 // Nodemailer route

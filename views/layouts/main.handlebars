@@ -46,6 +46,7 @@
             obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, message: form.message.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
+            window.location.href = "https://alenrem.herokuapp.com/gracias";
             return false;
         }
     </script>
