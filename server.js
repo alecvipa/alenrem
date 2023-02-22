@@ -79,7 +79,7 @@ app.post("/ajax/email", function (request, response) {
     });
 
     
-    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Producto de interés:${request.body.message} </p>`;
+    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p>Teléfono de contacto:${request.body.cell} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Producto de interés:${request.body.message} </p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
         to: 'alejandro@alenrem.com.mx',
